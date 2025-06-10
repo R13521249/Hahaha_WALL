@@ -1,0 +1,23 @@
+
+---
+
+### 2️⃣ environment.yml
+```yaml
+name: column_detection
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.8
+  - pip
+  - numpy
+  - pandas
+  - tqdm
+  - pillow
+  - matplotlib
+  - scikit-learn
+  - pyyaml
+  - pytorch==2.0.1
+  - torchvision==0.15.2
+  - pip:
+      - ultralytics
