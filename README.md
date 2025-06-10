@@ -16,3 +16,5 @@
 ├── README.md                        # 專案說明文件                                                                                                                    
 ├── environment.yml                  # Conda 環境設定檔                                                                                                                
 └── DLCV_Final_Competetion_Wall_CNN_YoloV8.ipynb # 主程式碼 (包含訓練與推論)                                                                                            
+  Competetion2_Datasets_Link                                                                                                                                                                                          
+  https://drive.google.com/drive/folders/1yDLcu1347yMhLSPXw9Mpt0ZT-po1hdvV?usp=sharing
