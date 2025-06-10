@@ -1,0 +1,22 @@
+# Python相關
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Conda環境相關
+*.lock
+
+# Jupyter Notebook檔案
+.ipynb_checkpoints/
+
+# YOLOv8訓練輸出
+runs/
+
+# 資料集與輸出檔案
+dataset_column/
+column_submission.csv
+
+# 系統檔案
+.DS_Store
+Thumbs.db
