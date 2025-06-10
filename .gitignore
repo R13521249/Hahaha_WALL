@@ -1,22 +1,25 @@
-# Python相關
+# Python-related files
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 
-# Conda環境相關
+# Conda environment files
 *.lock
 
-# Jupyter Notebook檔案
+# Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 
-# YOLOv8訓練輸出
+# Model checkpoints
+*.pth
+
+# YOLO training results
 runs/
 
-# 資料集與輸出檔案
-dataset_column/
-column_submission.csv
+# Dataset and submission files
+dataset_wall/
+wall_submission.csv
 
-# 系統檔案
+# System files
 .DS_Store
 Thumbs.db
