@@ -1,22 +1,19 @@
-
----
-
-### 2️⃣ environment.yml
+### environment.yml
 ```yaml
-name: column_detection
+name: wall_damage_detection
 channels:
   - defaults
   - conda-forge
 dependencies:
   - python=3.8
   - pip
-  - numpy
+  - numpy==1.26.4
   - pandas
   - tqdm
   - pillow
-  - matplotlib
   - scikit-learn
   - pyyaml
+  - matplotlib
   - pytorch==2.0.1
   - torchvision==0.15.2
   - pip:
